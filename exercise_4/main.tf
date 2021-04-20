@@ -7,7 +7,7 @@ provider "aws" {
 terraform {
    backend "s3" {
    bucket = "zee-remote-bucket-tf"
-   key = "terraform.tfstate"
+   key = "terraform.tfstate-4"
    region = "us-east-1"
   }
 }
